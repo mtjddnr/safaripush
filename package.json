@@ -1,0 +1,31 @@
+{
+  "name": "sapns",
+  "version": "0.0.0",
+  "description": "Safari Apple Push Notification API Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtjddnr/safaripush"
+  },
+  "keywords": [
+    "push",
+    "apns",
+    "safari"
+  ],
+  "author": "M",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mtjddnr/safaripush/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "body-parser": "~1.15.2",
+    "mysql": "~2.11.1",
+    "promise": "~7.1.1",
+    "safari-push-notifications": "~0.3.0",
+    "spn-push-package": "~1.1.3"
+  }
+}

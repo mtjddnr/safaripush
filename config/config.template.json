@@ -1,0 +1,32 @@
+{
+	"host": "https://host",
+	"eventHandler": "mysql",
+	"handlerConfig": {
+		"db": "dbname",
+		"table": "table",
+		"fields": {
+			"webId": "webId",
+			"token": "token"
+		},
+		"connections": [
+			{
+				"host"     : "db host",
+				"user"     : "db user",
+				"password" : "db password",
+				"port"     : "3306"
+			}
+		]
+	},
+	"pushPackage": {
+		"websiteName": "site title",
+		"websitePushID": "web Id",
+		"allowedDomains":[
+			"http://host",
+			"https://host"
+		],
+		"urlFormatString":"http://host/%@",
+		"authenticationToken":"token",
+		"webServiceURL":"https://host"
+	},
+	"listen": "/var/run/shm/push.sock"
+}

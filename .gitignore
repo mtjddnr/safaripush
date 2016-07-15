@@ -4,3 +4,11 @@ nginx/dhparam.pem
 nginx/private.key
 nginx/ssl-unified.crt
 node_modules
+config.json
+nginx.conf
+nginx.crt
+nginx.dh.pem
+nginx.key
+push.cert.pem
+push.icon.png
+push.key.pem
