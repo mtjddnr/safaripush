@@ -3,3 +3,4 @@ config/config.ssh
 nginx/dhparam.pem
 nginx/private.key
 nginx/ssl-unified.crt
+node_modules
